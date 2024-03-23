@@ -9,7 +9,7 @@ const connectDB = async () => {
     console.log(
       `MongoDB connected!! DB HOST: ${connectionInstane.connection.host}`
     );
-    // console.log(connectionInstane);
+   
   } catch (error) {
     console.log("Mongo DB connection falied", error);
     process.exit(1);
